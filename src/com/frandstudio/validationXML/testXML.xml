@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE note SYSTEM "testXMLDTD.dtd">
+<!ENTITY writer SYSTEM "testXMLDTD.dtd">
+<note>
+	<to sex="male">
+		<firstName>faks</firstName>
+		<lastName>fang</lastName>
+	</to>
+	<from>&writer;</from>
+	<heading>xml testing</heading>
+	<body>this is a xml file with DTD.</body>
+</note>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT note (to,from,heading,body)>
+<!ELEMENT to (firstName,lastName)>
+	<!ELEMENT firstName (#PCDATA)>
+	<!ELEMENT lastName (#PCDATA)>
+<!ELEMENT from (#PCDATA)>
+<!ELEMENT heading (#PCDATA)>
+<!ELEMENT body (#PCDATA)>
+
+<!ATTLIST to sex (female|male) "female">
+
+<!ENTITY writer "frand">
+<!ENTITY company "sap">
