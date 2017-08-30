@@ -2,6 +2,7 @@ package com.frandstudio.thinkinjava.chapter7reusingclasses;
 
 public class Drawing extends Art {
 	
+//	@Override //field cannot be overrided, 
 	public String strA = "Drawing.strA";
 
 //	@Override //must override a method in base class
